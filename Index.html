@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Cargar Productos - Ejemplo Cliente</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+    <h1 class="titulo">Cargar Producto</h1>
+
+    <form id="formProducto">
+
+        <input type="text" id="nombre" placeholder="Nombre del producto" class required>
+
+
+        <input type="number" id="precio" placeholder="Precio" class required>
+
+        <input type="number" id="cantidad" placeholder="Cantidad" class required>
+
+        <button type="submit" class="btnAgregar">Agregar</button>
+
+
+    </form>
+
+    <div class="divBuscar">
+
+        <div class="card">
+
+            <h2>Buscar producto</h2>
+
+            <input type="text" id="buscador" placeholder="Escribe para buscar...">
+            <br>
+
+            <button id="btnBuscar">Buscar</button>
+
+        </div>
+    </div>
+
+
+    <ul id="lista-productos"></ul>
+
+    <h2>Lista de productos</h2>
+
+    <table id="tablaProductos" border="1">
+        <thead>
+
+            <tr>
+                <th>Nombre</th>
+
+                <th>Precio</th>
+                <th>Cantidad</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody id="tablaProductos">
+            <tr>
+                <td>Producto 1</td>
+                <td>100</td>
+                <td>5</td>
+                <td>
+                    <button class="btnEditar">Editar</button>
+                    <button class="btnEliminar">Eliminar</button>
+                </td>
+            </tr>
+            <tr>
+                <td>Producto 2</td>
+                <td>200</td>
+                <td>10</td>
+                <td>
+                    <button class="btnEditar">Editar</button>
+                    <button class="btnEliminar">Eliminar</button>
+
+                </td>
+            </tr>
+            <tr>
+                <td>Producto 3</td>
+                <td>150</td>
+                <td>8</td>
+                <td>
+                    <button class="btnEditar">Editar</button>
+                    <button class="btnEliminar">Eliminar</button>
+                </td>
+            </tr>
+            <tr>
+
+                <td>Producto 4</td>
+                <td>250</td>
+                <td>12</td>
+                <td>
+                    <button class="btnEditar">Editar</button>
+                    <button class="btnEliminar">Eliminar</button>
+                </td>
+
+            </tr>
+            <tr>
+                <td>Producto 5</td>
+                <td>300</td>
+                <td>15</td>
+                <td>
+                    <button class="btnEditar">Editar</button>
+                    <button class="btnEliminar">Eliminar</button>
+                </td>
+            </tr>
+            <tr>
+
+                <td>Producto 6</td>
+                <td>350</td>
+                <td>20</td>
+                <td>
+                    <button class="btnEditar">Editar</button>
+                    <button class="btnEliminar">Eliminar</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+
+<script src="script.js"></script>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+<footer>Desarrollado por <div class="JORDY CACIO">DANIEL MARTÍNEZ</div>
+</footer>
+
+
+</html>

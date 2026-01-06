@@ -1,0 +1,321 @@
+* {
+ background-color: #d7d5e9;
+ background-position: 0% 0% ;
+
+  box-sizing: border-box;
+
+  margin: 0;
+
+
+  padding: 0;
+
+  font-family: Arial, sans-serif;
+
+
+}
+
+body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+
+        form {
+            margin-bottom: 20px;
+        }
+
+        input {
+            margin: 5px;
+            padding: 8px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        tbody tr:nth-child(even) {
+            background: #5c87b6;
+        }
+
+        table#tablaProductos {
+            margin-top: 20px;
+            border: 1px solid #333;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid #333;
+            padding: 8px;
+            text-align: center;
+        }
+
+        th {
+            background: #eee;
+            font-weight: bold;
+            text-transform: uppercase;
+            padding: 12px 8px;
+
+            border-bottom: 1px solid #333;
+
+        }
+        td {
+            padding: 10px 8px;
+            border-bottom: 1px solid #ccc;
+        }
+
+
+
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+
+    margin-bottom: 20px;
+    background-color: #ccc;
+    color: #333;
+
+  text-align: center;
+  margin-bottom: 20px;
+    color: #333;
+
+}
+h2 {
+    font-size: 20px;
+
+    font-weight: bold;
+
+    text-transform: uppercase;
+    text-align: left;
+
+    margin-bottom: 15px;
+
+    background-color: #fff;
+    color: #444;
+
+}
+input[placeholder="escriba para buscar"] {
+    width: 100%;
+
+    padding: 10px;
+
+    margin-bottom: 20px;
+
+    border: 1px solid #ccc;
+    
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);  
+
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+
+}
+.card {
+    padding: 15px;
+    background: #fafafa;
+    border: 1px solid #eee;
+
+    border-radius: 10px;
+
+    margin-bottom: 20px;
+    border-left: 6px solid #4F46E5;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+
+    }
+
+    input, button {
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+
+        padding: 10px;
+        margin: 6px;
+        border-radius: 8px;
+        border: 1px solid #ccc;
+        font-size: 15px;
+
+    }
+
+    button {
+        background: #4F46E5;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+
+        color: white;
+        border: none;
+        outline: none;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        transition: .3s;
+
+        cursor: pointer;    
+
+        transition: .3s;
+    }
+
+    button:hover {
+
+        background: #3730a3;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+
+        transform: translateY(-2px);
+
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 15px;
+    }
+
+    th {
+        background: #4F46E5;
+        color: white;
+        padding: 10px;
+    }
+
+    td {
+        padding: 10px;
+        background: #fff;
+        border-bottom: 1px solid #ddd;
+        text-align: center;
+    }
+
+    .acciones button {
+        padding: 8px 12px;
+        color: white;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        transition: .3s;
+    }   
+    .acciones button:first-child {
+
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+
+        background: #22c55e;
+        margin-right: 5px;
+    }
+
+
+    .acciones button:last-child {
+        background: #ef4444;
+    }
+
+    .acciones button:hover:first-child {
+        background: #15803d;
+    }
+
+    .acciones button:hover:last-child {
+        background: #b91c1c;
+    }
+
+    #buscador {
+
+        padding: 8px;
+        margin-bottom: 20px;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+
+        width: 50%;
+    }
+    .divBuscar {
+
+        margin-bottom: 20px;
+
+        text-align: right;
+
+
+    }
+    
+    .divBuscar {
+
+        margin-bottom: 20px;
+
+        text-align: right;
+
+    } 
+    input.divBuscar {
+
+        padding: 8px;
+
+        margin-bottom: 20px;
+
+        border: 1px solid #ccc;
+        border-radius: 8px;
+
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+
+
+        width: 50%;
+
+    }  
+    form input, form button {
+
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+
+        padding: 10px;
+
+        margin: 6px;
+
+        border-radius: 8px;
+
+        border: 1px solid #ccc;
+
+        font-size: 15px;
+
+    }
+    table#tablaProductos {
+
+        margin-top: 20px;
+
+        border: 1px solid #333;
+
+        border-collapse: collapse;
+
+    }
+    button {
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+
+        padding: 10px 15px;
+        margin: 6px;
+        border-radius: 8px;
+        border: 1px solid #ccc;
+        font-size: 15px;
+        cursor: pointer;
+        
+    }
+    buttoon.agregar {
+        background: #4F46E5;
+        color: white;
+        border: none;
+        outline: none;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        transition: .3s;
+    }   
+    footer {
+
+        background: #f1f1f1;
+        padding: 15px;
+        border-top: 1px solid #eee;
+        text-align: center;
+
+        margin-top: 30px;
+
+        font-size: 14px;
+
+        color: #666;
+
+    }
+    footer .Katherine Saraguro {
+
+        font-weight: bold;
+
+        color: #333;
+
+    }
+
